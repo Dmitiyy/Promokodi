@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promokodi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/queries.css">
+</head>
+<body>
+  <div class="container-blocks">
+    <div class="caption">
+      <img src="./images/logo.png" alt="logo">
+      <h1>SHIPMENT TRACKING</h1>
+      <p>
+        <span>Track Package:</span> USPS, UPS, FedEx, DHL, Amazon, Ebay, China Post, Wish Post (WishPost), United Kingdom Royal Mail, Parcel Force, etc. 
+      </p>
+    </div>
+    <div class="parcel-input">
+      <input type="text" placeholder="Enter parcel number">
+      <button>Track</button>
+    </div>
+    <!-- Loading -->
+    <div class="parcel-input">
+      <input type="text" placeholder="Enter parcel number">
+      <button class="parcel-input-loading" disabled>
+        <img src="./images/loading.svg" alt="loading">
+      </button>
+    </div>
+    <div class="content-loading">
+      <h2>SEARCHING YOUR PACKAGE</h2>
+      <img src="./images/loading.svg" alt="loading">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

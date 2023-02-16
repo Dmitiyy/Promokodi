@@ -1,0 +1,18 @@
+@media (max-width: 844px) {
+  .container-blocks {
+    padding: 0 16px 0 16px;
+  }
+}
+
+@media (max-width: 344px) {
+  .content-loading h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .caption h1 {
+    font-size: 18px;
+  }
+  .caption p {
+    font-size: 10px;
+  }
+}

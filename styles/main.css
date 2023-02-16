@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-blocks {
+  max-width: 1110px;
+  margin: 30px auto;
+}
+
+.parcel-input {
+  max-width: 840px;
+  display: flex;
+  margin: 24px auto;
+}
+
+.parcel-input input {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px 0 0 4px;
+  height: 40px;
+  border-right-color: transparent;
+  flex: auto;
+  padding: 0 24px 0 24px;
+  outline: none;
+  font-family: inherit;
+}
+
+.parcel-input input::placeholder {
+  color: #E6E6E6;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.parcel-input button {
+  width: 200px;
+  font-family: inherit;
+  border: none;
+  background: #EA3323;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  margin-left: -5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption h1 {
+  margin-top: 22px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #2252C1;
+}
+
+.caption p {
+  margin-top: 32px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.caption p span {
+  color: #2252C1;
+}
+
+.parcel-input-loading img {
+  width: 26px;
+}
+
+.parcel-input button:disabled {
+  background: #E6E6E6;
+}
+
+.content-loading {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-loading h2 {
+  color: #111827;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.content-loading img {
+  margin-top: 24px;
+  width: 26px;
+  filter: invert(37%) sepia(93%) saturate(7471%) hue-rotate(356deg) brightness(91%) contrast(135%);
+}
