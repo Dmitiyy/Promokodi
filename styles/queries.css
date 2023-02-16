@@ -1,11 +1,14 @@
-@media (max-width: 844px) {
+@media (max-width: 1126px) {
   .container-blocks {
     padding: 0 16px 0 16px;
   }
+  .delivery__data {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media (max-width: 344px) {
-  .content-loading h2 {
+@media (max-width: 500px) {
+  .content-loading h2, .section-title {
     font-size: 16px;
     text-align: center;
   }
@@ -14,5 +17,14 @@
   }
   .caption p {
     font-size: 10px;
+  }
+  .not-found h3 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 472px) {
+  .delivery__data {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
