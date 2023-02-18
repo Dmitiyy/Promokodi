@@ -5,6 +5,19 @@
   .delivery__data {
     grid-template-columns: repeat(2, 1fr);
   }
+  .tracking-header img {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .tracking-header img {
+    display: none;
+  }
+  .tracking-header .parcel-input {
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 500px) {
@@ -21,10 +34,43 @@
   .not-found h3 {
     font-size: 14px;
   }
+  .section-id {
+    font-size: 14px;
+  }
+  .tracking__progress-icon div {
+    width: 45px;
+    height: 45px;
+  }
+  .tracking__progress-icon h2 {
+    font-size: 12px;
+    width: 100%;
+  }
+  .tracking__progress-icon svg {
+    width: 18px;
+  }
+  .tracking__places-date, .tracking__places-content {
+    padding: 15px;
+  }
+  .tracking__places-content img {
+    width: 30px;
+    margin-left: 5px;
+  }
+  .tracking__places-date h3 {
+    font-size: 13px;
+  }
+  .tracking__places-content h3 {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 472px) {
   .delivery__data {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 428px) {
+  .tracking-header .parcel-input button {
+    width: 100%;
   }
 }
