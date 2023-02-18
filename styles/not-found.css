@@ -1,0 +1,32 @@
+.not-found {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.section-id {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.not-found p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.not-found-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EA3323;
+  margin: 24px auto;
+}
+
+.not-found-icon svg {
+  width: 24px;
+}
