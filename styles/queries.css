@@ -18,6 +18,9 @@
     margin-left: 0;
     margin-top: 0;
   }
+  .parcel-input button {
+    width: 100px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -69,7 +72,7 @@
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 340px) {
   .tracking-header .parcel-input button {
     width: 100%;
   }
