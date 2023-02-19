@@ -100,3 +100,15 @@
 .tracking__places-item.active .tracking__places-circle {
   border: 7px solid #EA3323;
 }
+
+.tracking__places-item.completed .tracking__places-date h3 {
+  color: #000; 
+}
+
+.tracking__places-item.completed .tracking__places-content h3 {
+  color: #000; 
+}
+
+.tracking__places-item.completed .tracking__places-circle {
+  border: 7px solid #81ED0C;
+}
